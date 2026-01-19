@@ -1,0 +1,42 @@
+{
+  "name": "cronwtf",
+  "version": "2.0.0",
+  "description": "Cron expression decoder and generator. wtf does this cron do?",
+  "main": "index.js",
+  "bin": {
+    "cronwtf": "./bin/cronwtf.js",
+    "cron": "./bin/cronwtf.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "cron",
+    "crontab",
+    "scheduler",
+    "cron-parser",
+    "cron-expression",
+    "cron-validator",
+    "cron-generator",
+    "time",
+    "schedule",
+    "cli"
+  ],
+  "author": "rtfm.codes",
+  "license": "MIT",
+  "homepage": "https://rtfm.codes/cronwtf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtfm-codes/cronwtf.git"
+  },
+  "bugs": {
+    "url": "https://rtfm.codes/cronwtf/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "luxon": "^3.4.4"
+  },
+  "devDependencies": {}
+}
